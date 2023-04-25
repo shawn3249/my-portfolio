@@ -1,0 +1,138 @@
+
+body{
+  background-color: rgb(242, 207, 207);
+
+  
+    
+  
+}
+nav {
+    
+    background:rgb(40, 42, 5);
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: 0 50px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+ 
+  
+  nav a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: gold;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+
+  nav a:hover {
+    border-bottom: 3px solid red;
+    text-shadow: 0 0 5px rgb(255, 0, 0);
+    color :rgb(255, 255, 255);
+  }
+  
+  .educ{
+    position: relative;
+    min-height: 70vh;
+    padding: 20px 0px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(74, 78, 83);
+    color:white;
+  }
+
+
+h1{
+  text-align: center;
+}
+
+  .bigbox{
+    
+    height: 650px;
+    width: 100%;
+   
+    display: flex;
+   
+    color: white;
+
+    
+  }
+  .bigbox .smallbox{
+   height: 600px;
+   width: 30%;
+   
+   align-items: center;
+
+
+   
+   height: 550px;
+   width: 100%;
+  background-color: #00000043;
+   display: flex;
+   margin: 10px 10px;
+   flex-direction: column;
+   border-radius: 25px;
+   padding-bottom: 20px;
+   transition:box-shadow 1s ;
+   
+  }
+  //.bigbox .smallbox .dg{
+   background-color:#ff0000;
+   text-align: center;
+  }
+  .smallbox .pic{
+   background-color: black;
+   height: 50%;
+   width: 100%;
+    display: flex;
+
+   
+  }
+  .pic img{
+    height: 100%;
+    width: 100%;
+   
+    
+  }
+  .smallbox .uni {
+    text-align: center;
+  }
+  .smallbox .botton{
+    background-color:rgb(180, 41, 3);
+    height: 30px;
+    width: 120px;
+    border-radius: 25px;
+    text-align: center;
+    margin: auto;
+   
+    
+  }
+
+  .smallbox .botton:hover{
+    background-color: #0c272eb0 ;
+   
+    
+  }
+  .botton a{
+    display: block;
+    padding: 4px 15px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    position: relative;
+    transition: 0.5s;
+  }

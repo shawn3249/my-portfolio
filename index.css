@@ -1,0 +1,114 @@
+body {
+  background-color: rgb(242, 207, 207);
+}
+
+.fullscreen {
+  height: 400px;
+  width: 100%;
+  background-color: rgba(40, 39, 39, 0.94);
+}
+.coverphoto {
+  height: 400px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.coverphoto img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+.ppic {
+  border: 5px solid rgb(255, 255, 255);
+  height: 200px;
+  width: 200px;
+
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+}
+.ppic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.menu {
+  background-color: yellow;
+}
+.menu ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.menu ul li {
+  float: left;
+  width: 20%;
+  text-align: center;
+}
+.menu ul li a {
+  background-color: rgb(242, 223, 56);
+  display: block;
+  text-align: center;
+  padding: 16px 5px;
+  text-decoration: none;
+  border-radius: 0px 0px 20px 20px;
+  transition: background-color 0.5s;
+}
+.menu ul li a:hover {
+  background-color: rgba(132, 0, 0, 0.552);
+  color: rgb(255, 255, 255);
+  border-radius: 50px 50px 0px 0px;
+}
+.menu2 {
+  background-color: yellow;
+}
+.menu2 ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.menu2 ul li {
+  float: right;
+  width: 20%;
+  text-align: center;
+}
+.menu2 ul li a {
+  background-color: rgb(242, 223, 56);
+  display: block;
+  text-align: center;
+  padding: 16px 5px;
+  text-decoration: none;
+  border-radius: 0px 0px 20px 20px;
+  transition: background-color 0.5s;
+}
+.menu2 ul li a:hover {
+  background-color: rgba(132, 0, 0, 0.552);
+  color: rgb(255, 255, 255);
+  border-radius: 50px 50px 0px 0px;
+}
+
+.fullscreen .name {
+  color: rgb(252, 252, 251);
+  display: flex;
+  position: absolute;
+  top: 70%;
+  left: 40%;
+}
+
+#h11 {
+  color: bisque;
+}
+.fullscreen .pera {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  margin: 190px 75px;
+  padding: 10px 10px;
+  border: 1px solid rgb(198, 198, 198);
+  border-radius: 25px;
+}

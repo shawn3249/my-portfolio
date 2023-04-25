@@ -1,0 +1,179 @@
+body{
+  background-color: rgb(242, 207, 207);
+}
+.contactme{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(78, 81, 84);
+    color:white;
+}
+
+.contactme .contant{
+    max-width: 900px;
+    text-align: center;
+}
+
+.contactme .contant h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: yellow;
+}
+
+.fbox{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+   
+}
+.fbox .info{
+    position: relative;
+    padding: 20PX 0PX; 
+    display: flex;
+    flex-direction: column;
+   margin: 0px 80px;
+
+}
+.fbox .info .box {
+    position: relative;
+    padding: 1px 0px;
+    display: flex;
+    margin: 10px 20px;
+   
+}
+
+.fbox .info .box .icon{
+    min-width: 50px;
+    height: 50px;
+    background: #5f5f5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    
+}
+.fbox .info .box .text{
+display: flex;
+margin-left: 20px;
+font-size: 16px;
+flex-direction: column;
+font-weight: 300;
+
+}
+.fbox .info .box .text h3{
+    color: gold;
+}
+.fbox .info .box .text a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(28, 24, 24, 0.7);
+    padding: 1px 10px;
+    border-radius: 5%;
+
+}
+.fbox .info .box .text a:hover{
+background: white;
+color: rgb(10, 10, 6);
+
+}
+.cf{
+    width: 25%;
+    padding: 40px;
+    background-color: rgba(22, 19, 19, 0.427);
+    border-radius: 10px;
+    transition:box-shadow 1s ;
+
+}
+input[type="gmail"]{
+    text-align: right;
+}
+.cf h2{
+   font-size: 30px;  
+   color: rgb(252, 225, 70);
+   font-weight: 500px;
+   
+}
+.cf .inputbox{
+    position: relative;
+    width: 100%;
+    margin-top: 10PX;
+    
+}
+.cf .inputbox input{
+    width: 100%;
+    padding: 6px 0px;
+    font-size: 16px;
+    margin: 5px 0px; 
+    border: none;
+    border-bottom: 2px solid rgb(255, 255, 0);
+    outline: none;
+    resize: none;
+}
+#t1{
+  margin: 10px 0px; 
+  display: flex; 
+  width: 100%;
+}
+
+p, h3 {
+    margin: 0px;
+    padding: 0px;
+  }
+  a,h3{
+    margin: 0px;
+    padding: 8px;
+  }
+  .cf:hover  {
+    box-shadow: 0px 0px 30px red;
+    transform: translatey(-5px);
+  }
+  .info .box .icon:hover {
+    box-shadow: 0px 0px 40px gold;
+   
+  }
+  
+  nav {
+    
+    background:rgb(40, 42, 5);
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: 0 50px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+ 
+  
+  nav a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: gold;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+
+  nav a:hover {
+    border-bottom: 3px solid red;
+    text-shadow: 0 0 5px rgb(255, 0, 0);
+    color :rgb(255, 255, 255);
+  }
+  
+  

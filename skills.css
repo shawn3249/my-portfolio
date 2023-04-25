@@ -1,0 +1,165 @@
+body{
+  background-color: rgb(242, 207, 207);
+}
+nav {
+    
+    background:rgb(40, 42, 5);
+    display: flex;
+    justify-content: flex-end;
+    
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin: 0 50px;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+ 
+  
+  nav a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: gold;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+
+  nav a:hover {
+    border-bottom: 3px solid red;
+    text-shadow: 0 0 5px rgb(255, 0, 0);
+    color :rgb(255, 255, 255);
+  }
+  
+
+
+
+
+
+  .skills{
+  
+    position: relative;
+    min-height: 100vh;
+    padding: 20px 100px;
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(42, 42, 42);
+    color:white;
+  }
+  .skills .contant{
+  
+   
+    text-align: center;
+    align-items: center;
+    
+}
+  .skills .contant h2{
+    font-size: 30px;
+    font-weight: 500;
+    color: yellow;
+}
+.bigbox{
+    
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    
+}
+.bigbox .smallbox{
+  box-shadow: 0 0 9px rgb(83, 231, 90);
+    height: 550px;
+    width: 100%;
+   background-color: #00000043;
+    display: flex;
+    margin: 10px 10px;
+    flex-direction: column;
+    border-radius: 25px;
+    padding-bottom: 20px;
+    transition:box-shadow 1s ;
+}
+.bigbox .smallbox:hover{
+  box-shadow:0 0 15px red;
+  transform: translatey(-10px);
+
+}
+
+.bigbox .smallbox .intro{
+  background-color: rgba(158, 125, 125, 0.411);
+  align-items: center;
+  text-align: center;
+  margin-bottom: 25px;
+  border-top-right-radius: 25PX;
+  border-top-left-radius: 25PX;
+}
+
+.bigbox .smallbox .skill{
+  margin-left: 25px;
+  padding: 2px 0px;
+  display: flex;
+  
+ 
+}
+.bigbox .smallbox .skill:hover{
+  margin-right: 15px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(76, 177, 36, 0.915);
+}
+.bigbox .smallbox .skill .logo{
+  margin: 20PX 0PX;
+  min-width: 50px;
+    height: 50px;
+    background: #6e999e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25%;
+}
+.bigbox .smallbox .skill .logo img{
+  
+   height: 35px; 
+   
+  
+}
+.bigbox .smallbox .skill .text{
+  width: 100%;
+
+margin: 0 30PX;
+
+}
+.bigbox .smallbox .skill .text .box{
+  height: 10PX;
+  width: 100%;
+  background-color: aliceblue;
+  border-radius: 25px;
+}
+#html1,#css,#cs{
+  height: 10PX;
+  width: 100%;
+  background-color: red;
+  border-radius: 25px;
+}
+
+#python,#js,#ps,#prs,#ai,#java{
+  height: 10PX;
+  width: 90%;
+  background-color: red;
+  border-radius: 25px;
+}
+#ap,#c,#c1,#php,#net{
+  height: 10PX;
+  width: 50%;
+  background-color: red;
+  border-radius: 25px;
+}
